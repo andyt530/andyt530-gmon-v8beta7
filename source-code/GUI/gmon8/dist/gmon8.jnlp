@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<jnlp spec="1.0" xmlns:jfx="http://javafx.com" href="gmon8.jnlp">
+  <information>
+    <title>gmon8</title>
+    <vendor>Andy Thomas</vendor>
+    <description>Sample JavaFX 2.0 application.</description>
+    <offline-allowed/>
+  </information>
+  <resources>
+    <jfx:javafx-runtime version="2.2+" href="http://javadl.sun.com/webapps/download/GetFile/javafx-latest/windows-i586/javafx2.jnlp"/>
+  </resources>
+  <resources>
+    <j2se version="1.6+" href="http://java.sun.com/products/autodl/j2se"/>
+    <jar href="gmon8.jar" size="82609" download="eager" />
+    <jar href="lib/deploy.jar" size="4702028" download="eager" />
+    <jar href="lib/javaws.jar" size="926455" download="eager" />
+    <jar href="lib/jfxrt.jar" size="15707857" download="eager" />
+    <jar href="lib/jfxtras-labs-2.2-r6-20140102.090240-22.jar" size="1861811" download="eager" />
+    <jar href="lib/plugin.jar" size="1997727" download="eager" />
+  </resources>
+<security>
+  <all-permissions/>
+</security>
+  <application-desc main-class="gmon.MainLoop"  name="gmon8" >
+  </application-desc>
+  <update check="always"/>
+</jnlp>
